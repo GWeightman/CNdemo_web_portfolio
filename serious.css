@@ -1,0 +1,56 @@
+body{
+    background: url(images/altissia.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+h1{
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    margin: 5px;
+}
+
+footer{
+    display: flex;
+    position: static;
+    bottom: 1%;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+a{
+    width: 49%;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+}
+
+a:hover{
+    background-color: rgb(8, 116, 116);
+    color: rgb(7, 36, 37);
+    box-shadow: 10px 10px 0 rgb(10, 61, 65);
+    vertical-align: text-bottom;
+}
+
+table{
+    width: 100%;
+    table-layout: fixed;
+}
+
+td{
+   color: black;
+   font-size: 25px;
+   text-align: center;
+   border: transparent 1px solid;
+   padding: 0;
+   background-color: rgba(8, 116, 116, 0.7);
+   background-clip: padding-box;
+   height: 50px;
+}
+
+h2{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    margin: 5px;
+}

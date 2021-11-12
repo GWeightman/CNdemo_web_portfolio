@@ -1,0 +1,137 @@
+body{
+    background: url(images/neir_automata.jfif) no-repeat center center fixed;
+    background-size: cover;
+}
+
+h1{
+    color: rgb(10, 7, 37);
+    font-size: 40px;
+    text-align: center;
+    margin: 5px;
+    }
+
+ul{
+    display: flex;
+    position: static;
+    bottom: 0;
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 0;
+    text-align: center;
+}
+
+h2{
+    color: rgb(10, 7, 37);
+    font-size: 35px;
+    text-align: center;
+    margin: 5px;
+}
+
+.movie{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly ;
+}
+
+.movie iframe{
+    width: 40%;
+}
+
+.movie h3{
+    font-size: 25px;
+    color: rgb(10, 7, 37);
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+
+.movie p{
+    font-size: 25px;
+    color: rgb(10, 7, 37);
+    width: 58%;
+    text-align: justify;
+    background-color: rgba(111, 121, 110, 0.7);
+    margin: 0;
+}
+
+.book{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly ;
+}
+
+.book img{
+    width: 20%;
+}
+
+
+.book h3{
+    font-size: 25px;
+    color: rgb(10, 7, 37);
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+
+.book p{
+    font-size: 25px;
+    color: rgb(10, 7, 37);
+    width: 78%;
+    text-align: justify;
+    background-color: rgba(111, 121, 110, 0.7);
+    margin: 0;
+}
+
+.gnovels{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly ;
+}
+
+.gnovels #link{
+    width: 20%;
+}
+
+.gnovels img{
+    width:100%;
+}
+
+
+.gnovels h3{
+    font-size: 25px;
+    color: rgb(10, 7, 37);
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+
+.gnovels p{
+    font-size: 25px;
+    color: rgb(10, 7, 37);
+    width: 78%;
+    text-align: justify;
+    background-color: rgba(111, 121, 110, 0.7);
+    margin: 0;
+}
+
+.upper_nav{
+    display: flex;
+    position: static;
+    bottom: 0;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+ a{
+    width: 49%;
+    color:rgb(10, 7, 37);
+    font-size: 30px;
+    text-align: center;
+}
+
+a:hover{
+    color: rgb(6, 17, 2);
+    background-color: rgb(111, 121, 110);
+    box-shadow: 10px 10px 0 rgb(21, 65, 10);
+    vertical-align: text-bottom;
+}
